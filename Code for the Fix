@@ -1,0 +1,26 @@
+-- The Big Game Crash by nixkiez
+-- Requires version 9 of DSL
+
+function fix()
+   if MissionActiveSpecific("4_B2") then
+    if IsButtonPressed(2, 0)  then -- 2 = Manual aiming or the up button on controllers, on main controller
+	 CameraSetXYZ(-26.82692, -67.17024, 1.988937, -27.018621, -68.151535, 1.986971)
+	 CameraSetWidescreen(true)
+	 Wait(100)
+	 AreaTransitionXYZ(0, -28.56, -53.96, 1, true)
+	 CameraFade(1, 0)
+	 Wait(100)
+	 CameraFade(1, 1)
+	 CameraSetWidescreen(false)
+	 CameraReset()
+	end
+   end
+end
+
+function main()
+while true do
+    Wait(0)
+	fix()
+    end
+ end
+	
