@@ -11,3 +11,7 @@ Simply drag the 'fix' folder into the scripts folder inside derpy's script loade
 How To Use:
 
 When the screen goes black, simply keep spamming the pause button to know when the game unfreezes, then when it does unfreeze, simply press the Up Button on your keyboard or controller, which ever button you use to go into manual aiming on the controller or keyboard you are using to control the game with.
+
+Update: 
+
+This fix is now automatic, and should prevent it from crashing in the mission ever again. Only the DSL version is automatic.
